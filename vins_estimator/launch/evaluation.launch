@@ -1,0 +1,9 @@
+<launch>
+
+	<node pkg="rosbag" type="record" name="bag_record" args="/pose_graph/imu_pl_loop /dvs_vicon/gt_pose -o /home/kwanwaipang/dataset/hku_event_camera/davis346+dvxplorer/pl_eio_result/pl_eio_result"/>
+
+
+
+
+</launch>
+
